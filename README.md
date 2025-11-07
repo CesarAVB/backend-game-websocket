@@ -177,7 +177,7 @@ Para restringir, edite `WebSocketConfig.java`:
 
 Este backend foi projetado para funcionar com o frontend Angular disponível em:
 ```
-[https://github.com/CesarAVB/rock-paper-scissors-frontend](https://github.com/CesarAVB/angular-game-websocket)
+[Frontend Angular](https://github.com/CesarAVB/angular-game-websocket)
 ```
 
 Para conectar:
