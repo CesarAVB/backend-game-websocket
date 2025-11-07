@@ -176,7 +176,7 @@ Para restringir, edite `WebSocketConfig.java`:
 ## Integrando com frontend
 
 Este backend foi projetado para funcionar com o frontend Angular disponível em:
-[Frontend Angular](https://github.com/CesarAVB/angular-game-websocket)
+[Pedra, Papel e Tesoura Online](https://github.com/CesarAVB/angular-game-websocket)
 
 Para conectar:
 1. Execute este backend na porta 8080
