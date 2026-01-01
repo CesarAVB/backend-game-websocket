@@ -11,7 +11,10 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
 	@Override
 	public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-		registry.addHandler(new GameSocketHandler(), "/game").setAllowedOrigins("*");
+		registry.addHandler(new GameSocketHandler(), "/game").setAllowedOrigins(
+                "https://jokenpo.cesaravb.com.br",
+                "http://localhost:4200"
+            );
 		
 	}
 
