@@ -47,7 +47,7 @@ public class GameSocketHandler extends TextWebSocketHandler {
 
 	
 	private void send(WebSocketSession s, String type, String msg) throws Exception {
-        String escapedMsg = msg.replace("\n", "\\n"); // <-- ADICIONE ESTA LINHA!
+        String escapedMsg = msg.replace("\n", "\\n");
 
         String finalJsonString = "{"
             + "\"type\":\"" + type + "\","
